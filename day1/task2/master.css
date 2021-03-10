@@ -1,0 +1,99 @@
+body{
+  background:#e3e3e1;
+}
+.header{
+  background:#4293eb;
+  padding:30px;
+  margin:-8px -8px 0px -8px;
+  display: flex;
+}
+.searchbar{
+  width:65%;
+  display:inline;
+}
+#search{
+  margin-left:20px;
+  font-size:16px;
+  padding:12px;
+  width:45%;
+  border:none;
+  border-radius:5px 0px 0px 5px;
+}
+#search:hover{
+  box-shadow:0.5px 0.5px 2px 2px #8db8eb;
+}
+#search1{
+  font-size:16px;
+  padding:12px;
+  color:#4293eb;
+  border:0px;
+  background:white;
+  margin-left:-3.5px;
+  cursor: pointer;
+  border-radius:0px 5px 5px 0px;
+}
+#search1:hover{
+  box-shadow:0.5px 0.5px 2px 2px #8db8eb;
+}
+
+a{
+  margin-top:10px;
+  color:#ffffff;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  padding-right: 45px;
+
+}
+a:hover{
+  transform: scale(1.1);
+}
+.container{
+  margin-top:20px;
+  display: flex;
+  justify-content:space-around;
+}
+
+.name{
+  border:none;
+  background: white;
+  width:100%;
+  text-align: center;
+}
+.galaxyM30{
+  height:400px;
+  width:300px;
+  background:white;
+  align-items: center;
+  border:2px solid;
+  border-radius:10px;
+  padding:10px 0px 10px 0px;
+}
+
+.galaxyM30 img{
+  width:200px;
+  height:200px;
+  margin-left:50px;
+}
+#button{
+  font-size:20px;
+  color:white;
+  font-weight: bold;
+  border:none;
+  border-radius:5px;
+  background:#eba33f;
+  padding:10px;
+  width:70%;
+  margin-top:30px;
+  margin-left:15%;
+  cursor: pointer;
+}
+#button:hover{
+    transform:scale(1.02);
+
+}
+
+h1{
+  cursor:default;
+  margin-left:10px;
+}
